@@ -223,4 +223,21 @@ a:hover {
     width: 300px;
     max-width: 90%;
     height: auto;
+}.meu-endereco {
+    text-align: center;
+    margin: 35px auto;
+}
+
+.meu-endereco img {
+    display: block;
+    width: 300px;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto 15px;
+}
+
+.meu-endereco p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
 }
