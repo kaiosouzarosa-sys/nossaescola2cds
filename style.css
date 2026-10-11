@@ -146,13 +146,8 @@ text-decoration: none;
     border-radius: 10px;
     display: block;
 }
-
-
- .titulo_site {
-    text-align: center;
-    width: 100%;
-    margin: 20px auto;
-}body {
+/* TEMA PRETO E AZUL */
+body {
     background-color: #050505 !important;
     color: #ffffff !important;
 }
