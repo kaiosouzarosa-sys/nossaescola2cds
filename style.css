@@ -152,4 +152,48 @@ text-decoration: none;
     text-align: center;
     width: 100%;
     margin: 20px auto;
+}/* Tema preto e branco */
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+/* Menu */
+.menu {
+    background-color: #000000;
+}
+
+.menu a {
+    color: #ffffff;
+}
+
+.menu a:hover {
+    color: #aaaaaa;
+}
+
+/* Área das fotos */
+.estudante {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+/* Galeria de fotos */
+.minhas-fotos {
+    background-color: #000000;
+}
+
+/* Rodapé */
+.escola {
+    background: #111111;
+    color: #ffffff;
+}
+
+/* Links em geral */
+a {
+    color: #ffffff;
 }
