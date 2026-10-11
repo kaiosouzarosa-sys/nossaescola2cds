@@ -203,15 +203,8 @@ footer,
 a:hover {
     color: #008cff;
 }
-  h
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-header h1 {
+  .titulo_site {
     text-align: center;
+    width: 100%;
     margin: 0 auto;
 }
