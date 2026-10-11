@@ -152,48 +152,60 @@ text-decoration: none;
     text-align: center;
     width: 100%;
     margin: 20px auto;
-}/* Tema preto e branco */
+}/* TEMA PRETO E AZUL */
 body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #050505 !important;
+    color: #ffffff !important;
 }
 
 /* Títulos */
-h1, h2, h3 {
+h1, h2, h3, p {
     color: #ffffff;
 }
 
 /* Menu */
 .menu {
-    background-color: #000000;
+    background-color: #080808 !important;
+    border-bottom: 2px solid #008cff;
 }
 
 .menu a {
-    color: #ffffff;
+    color: #ffffff !important;
+    text-decoration: none;
 }
 
 .menu a:hover {
-    color: #aaaaaa;
+    color: #008cff !important;
 }
 
-/* Área das fotos */
+/* Início e sobre mim */
+.inicio,
+.sobre-mim,
 .estudante {
-    background-color: #111111;
-    color: #ffffff;
+    background-color: #080808 !important;
+    color: #ffffff !important;
 }
 
-/* Galeria de fotos */
+/* Nome e destaques */
+.titulo_site {
+    color: #008cff !important;
+    text-align: center;
+}
+
+/* Fotos */
 .minhas-fotos {
-    background-color: #000000;
+    background-color: #050505 !important;
 }
 
 /* Rodapé */
+footer,
 .escola {
-    background: #111111;
-    color: #ffffff;
+    background-color: #080808 !important;
+    color: #ffffff !important;
+    border-top: 2px solid #008cff;
 }
 
-/* Links em geral */
-a {
-    color: #ffffff;
+/* Links */
+a:hover {
+    color: #008cff;
 }
