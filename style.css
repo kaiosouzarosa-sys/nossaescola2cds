@@ -152,8 +152,7 @@ text-decoration: none;
     text-align: center;
     width: 100%;
     margin: 20px auto;
-}/* TEMA PRETO E AZUL */
-body {
+}body {
     background-color: #050505 !important;
     color: #ffffff !important;
 }
