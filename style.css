@@ -223,8 +223,12 @@ a:hover {
     width: 300px;
     max-width: 90%;
     height: auto;
-}.meu-endereco {
+.meu-endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    width: 100%;
     margin: 35px auto;
 }
 
@@ -240,4 +244,10 @@ a:hover {
     color: white;
     text-align: center;
     font-size: 18px;
+    margin: 10px auto;
+}
+
+.meu-endereco a {
+    color: #008cff;
+    text-align: center;
 }
