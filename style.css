@@ -202,6 +202,15 @@ footer,
 /* Links */
 a:hover {
     color: #008cff;
-}h1 {
+}
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
     text-align: center;
+    margin: 0 auto;
 }
