@@ -1,13 +1,4 @@
-/* Área das fotos */
-.estudante {
-    padding: 30px 20px;
-    text-align: center;
-}
-
-.estudante h2 {
-    margin-bottom: 30px;
-}
-
+/* Organizar as fotos dos alunos */
 .estudantes-todos {
     display: flex;
     flex-wrap: wrap;
@@ -16,110 +7,29 @@
     gap: 25px;
 }
 
-/* Cartão de cada aluno */
 .estudante-div {
-    width: 180px;
+    width: 160px;
     text-align: center;
 }
 
 .estudante-imagem {
-    width: 100%;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    border-radius: 10px;
     display: block;
+    margin: 0 auto;
 }
 
-.estudante-nome {
-    margin: 10px 0;
-}
-
-.estudante-redes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
+/* Impedir que os logos fiquem gigantes */
 .estudante-icone {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     object-fit: contain;
+    display: inline-block;
 }
 
-/* Contato abaixo das fotos */
-.contato {
-    background-color: #3498db;
-    color: white;
-    text-align: center;
-    padding: 25px 15px;
-    margin-top: 30px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.contato h3 {
-    margin-top: 0;
-}/* Área das fotos */
-.estudante {
-    padding: 30px 20px;
-    text-align: center;
-}
-
-.estudante h2 {
-    margin-bottom: 30px;
-}
-
-.estudantes-todos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 25px;
-}
-
-/* Cartão de cada aluno */
-.estudante-div {
-    width: 180px;
-    text-align: center;
-}
-
-.estudante-imagem {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
-}
-
+/* Nome do aluno */
 .estudante-nome {
-    margin: 10px 0;
-}
-
-.estudante-redes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.estudante-icone {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-}
-
-/* Contato abaixo das fotos */
-.contato {
-    background-color: #3498db;
-    color: white;
     text-align: center;
-    padding: 25px 15px;
-    margin-top: 30px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.contato h3 {
-    margin-top: 0;
+    margin: 8px 0;
 }
