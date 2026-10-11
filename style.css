@@ -107,4 +107,20 @@ text-decoration: none;
 
 .menu a:hover {
     color: #00aaff;
+}.inicio {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.minha-foto {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.inicio p {
+    max-width: 600px;
+    margin: 15px auto;
+    line-height: 1.6;
 }
