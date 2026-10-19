@@ -251,3 +251,178 @@ main .meu-endereco a {
     text-align: center !important;
     margin: 10px auto !important;
 }
+/* ===== ESTILO DA PÁGINA DE CERTIFICADOS ===== */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: #111111;
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+min-height: 100vh;
+}
+
+/* Cabeçalho */
+
+header {
+width: 100%;
+padding: 25px 8%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid #00bfff;
+}
+
+header h1 {
+color: #00bfff;
+font-size: 30px;
+font-weight: bold;
+}
+
+nav {
+display: flex;
+gap: 25px;
+}
+
+nav a {
+color: #ffffff;
+text-decoration: none;
+font-size: 16px;
+transition: 0.3s;
+}
+
+nav a:hover {
+color: #00bfff;
+}
+
+/* Título da página */
+
+.certificados {
+width: 85%;
+max-width: 1200px;
+margin: 60px auto;
+}
+
+.certificados h2 {
+color: #00bfff;
+text-align: center;
+font-size: 32px;
+margin-bottom: 15px;
+}
+
+.certificados p {
+color: #cccccc;
+text-align: center;
+margin-bottom: 35px;
+line-height: 1.6;
+}
+
+/* Área dos certificados */
+
+.lista-certificados {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 25px;
+}
+
+/* Card de cada certificado */
+
+.certificado {
+background-color: #1c1c1c;
+border: 1px solid #333333;
+border-radius: 12px;
+padding: 20px;
+text-align: center;
+transition: 0.3s ease;
+}
+
+.certificado:hover {
+transform: translateY(-5px);
+border-color: #00bfff;
+box-shadow: 0 0 15px rgba(0, 191, 255, 0.15);
+}
+
+/* Imagem do certificado */
+
+.certificado img {
+width: 100%;
+height: 200px;
+object-fit: contain;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+
+/* Nome e descrição */
+
+.certificado h3 {
+color: #00bfff;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.certificado p {
+color: #cccccc;
+font-size: 14px;
+margin-bottom: 15px;
+}
+
+/* Botão para visualizar */
+
+.certificado a {
+display: inline-block;
+background-color: #00bfff;
+color: #111111;
+text-decoration: none;
+font-weight: bold;
+padding: 10px 20px;
+border-radius: 6px;
+transition: 0.3s;
+}
+
+.certificado a:hover {
+background-color: #ffffff;
+}
+
+/* Rodapé */
+
+footer {
+text-align: center;
+padding: 25px 15px;
+color: #cccccc;
+font-size: 14px;
+border-top: 1px solid #333333;
+margin-top: 50px;
+}
+
+/* Ajuste para celulares */
+
+@media (max-width: 600px) {
+header {
+flex-direction: column;
+gap: 20px;
+padding: 20px;
+}
+
+header h1 {
+font-size: 25px;
+}
+
+nav {
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+}
+
+.certificados {
+width: 90%;
+margin: 35px auto;
+}
+
+.certificados h2 {
+font-size: 26px;
+}
+}
