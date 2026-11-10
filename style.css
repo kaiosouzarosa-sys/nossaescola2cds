@@ -91,19 +91,27 @@ padding: 12px 0;
 .link{
 color: #ffffff;
 text-decoration: none;
-}.menu {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    padding: 15px;
-    background-color: #222;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
 }
 
-.menu a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
 }
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #555555;
+  color: white;
+}
+
 
 .menu a:hover {
     color: #00aaff;
@@ -157,20 +165,7 @@ h1, h2, h3, p {
     color: #ffffff;
 }
 
-/* Menu */
-.menu {
-    background-color: #080808 !important;
-    border-bottom: 2px solid #008cff;
-}
 
-.menu a {
-    color: #ffffff !important;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: #008cff !important;
-}
 
 /* Início e sobre mim */
 .inicio,
