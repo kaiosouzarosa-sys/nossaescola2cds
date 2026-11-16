@@ -16,6 +16,36 @@
 </ul> 
    
 
+<section class="alura-cert-wrapper">
+    <div class="alura-cert-header-bar">
+        <h2 class="alura-cert-heading">Meus Certificados Alura</h2>
+        <span class="alura-cert-counter" id="alura-cert-count">0 certificados</span>
+    </div>
+
+    <div class="alura-cert-form-box">
+        <form id="alura-cert-form" class="alura-cert-input-group">
+            <input 
+                type="url" 
+                id="alura-cert-url" 
+                class="alura-cert-input"
+                placeholder="Cole o link do certificado (ex: https://alura.com.br...)" 
+                required
+            >
+            <button type="submit" class="alura-cert-btn-add">Adicionar</button>
+        </form>
+    </div>
+
+    <div class="alura-cert-grid" id="alura-cert-list">
+        <!-- Os certificados serão inseridos aqui pelo JS -->
+    </div>
+</section>
+
+
+
+
+
+
+
    <div class="certificados">
 <h2>Meus Certificados</h2>
 
@@ -41,3 +71,6 @@ Certificado de Programação
 
 </body>
 </html>
+
+  <!-- Carregamento do script.js externo -->
+  <script src="certificado.js" defer></script>
