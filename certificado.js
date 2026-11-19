@@ -5,13 +5,13 @@ const meusCertificados = [
         data: "Outubro de 2026"
     },
     {
-        curso: "Exemplo de Segundo Curso",
-        url: "https://alura.com.br",
+        curso: "Acessibilidade web: crie designs inclusivos",
+        url: "https://cursos.alura.com.br/course/acessibilidade-web-design-inclusivos",
         data: "Novembro de 2026"
     },
     {
-        curso: "Exemplo de Terceiro Curso",
-        url: "https://alura.com.br",
+        curso: "JavaScript: programando na linguagem da web",
+        url: "https://cursos.alura.com.br/certificate/kaio-souza-rosa/javascript-programando-na-linguagem-web",
         data: "Novembro de 2026"
     }
 ];
